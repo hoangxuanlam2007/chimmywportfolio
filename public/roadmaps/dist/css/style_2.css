@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #ebebeb;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    border-radius: 15px;
+}
+h1, p {
+    pointer-events: none;
+}
+a {
+    transition: all .3s ease;
+}
+body {
+    -webkit-user-select: none;    /* Safari */
+    -webkit-touch-callout: none;  /* iOS Safari */
+    -khtml-user-select: none;     /* Konqueror HTML */
+    -ms-user-select: none;        /* Internet Explorer/Edge */
+    -moz-user-select: none;       /* Old versions of Firefox */
+     user-select: none;           /* Non-prefixed version*/
+}
+* {
+    scroll-behavior: smooth !important;
+}
